@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from "react";
 import Slide from "react-reveal";
 
 class Resume extends Component {
   getRandomColor() {
-    let letters = "0123456789ABCDEF";
+    const letters = "0123456789ABCDEF";
     let color = "#";
     for (let i = 0; i < 6; i++) {
       color += letters[Math.floor(Math.random() * 16)];
