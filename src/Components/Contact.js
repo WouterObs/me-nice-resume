@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
 
