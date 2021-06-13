@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+  - 14.x
+os: linux
+dist: trusty
+branches: master
